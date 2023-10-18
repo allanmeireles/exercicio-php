@@ -1,6 +1,7 @@
 <?php 
-   $nome=$_GET("f_nome"); 
-   $idade=$_GET("f_idade"); 
+   
+   $nome=$_POST["f_nome"]; 
+   $idade=$_POST["f_idade"]; 
 
-   echo "Nome: " .$nome."<br/>Idade: ".$idade."<br/>"
+   echo "Nome: ".$nome."<br/>Idade: ".$idade."<br/>";   
 ?>
